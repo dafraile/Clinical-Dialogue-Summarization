@@ -13,4 +13,13 @@ Please note that this model was trained using a .csv file containing two columns
 Model can be used out the box to summarize clinical text with the provided script:
 
 
+This work was presented at the 2022 SRW NAACL Conference in Seattle, US. Paper can be found in the proceedings of the workshop.
+
+Due to limitations in our ethics' approval the dataset that was used for training could not be released.
+
+Any enquiries please contact me.
+
+
+David Fraile Navarro (2022)
+
 
