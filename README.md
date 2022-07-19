@@ -18,10 +18,11 @@ BART and PEGASUS were trained using CUDA.
 
 This implemmentation have been tested using Amazon AWS cloud both for CUDA and Non-CUDA training.
 
-Please note that this model(s) were trained using a .csv file containing two columns, one for the "dialogue" and another for the "summary". You will need to adjust it to your particular dataset, if user wants to retrain. Additional headings need to be added for the T5 version training to work properly, 
+Please note that this model(s) were trained using a .csv file containing two columns, one for the "dialogue" and another for the "summary". You will need to adjust it to your particular dataset, if user wants to retrain. Additional headings need to be added for the T5 version training to work properly as shown in "finetuning_t5.sh"
 
 Model(s) can be used out the box to summarize clinical dialogue text with the provided python script. (Requires Huggingface Transformers installed) Please see: https://github.com/huggingface/transformers for Installation guide.
 
+The "finaleval_t5.py" and "finaleval_bart.py" will produce summaries when used with the provided models available in Huggingface platform.
 
 This work was presented at the 2022 SRW NAACL Conference in Seattle, US. 
 
